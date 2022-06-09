@@ -1,0 +1,2505 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "text_link_1",
+  "elementLabel" : "Text link 1",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Link",
+        "comment" : ""
+      }
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "primary"
+    },
+    "href" : {
+      "type" : "JSON_LITERAL",
+      "value" : "https://www.servicenow.com/"
+    },
+    "underlined" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "opensWindow" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "download" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : {
+        "aria-label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Accessible Label",
+            "comment" : ""
+          }
+        }
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "abe7db0526ec8705a0eff03521febfa3",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "link_set_group_1",
+  "elementLabel" : "Link set group 1",
+  "propertyValues" : {
+    "items" : {
+      "type" : "LIST_CONTAINER",
+      "container" : [ {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "heading" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "link"
+              },
+              "hasIcon" : {
+                "type" : "JSON_LITERAL",
+                "value" : true
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "name" : "bundle-outline",
+                  "placement" : "inline",
+                  "alignment" : "left"
+                }
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "",
+                  "comment" : ""
+                }
+              },
+              "link" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "IT Support",
+                      "comment" : ""
+                    }
+                  },
+                  "type" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "route"
+                  },
+                  "value" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : {
+                      "route" : "it_support",
+                      "fields" : { }
+                    }
+                  },
+                  "opensWindow" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  },
+                  "configAria" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : { }
+                  },
+                  "download" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  }
+                }
+              }
+            }
+          },
+          "links" : {
+            "type" : "LIST_CONTAINER",
+            "container" : [ {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Software",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "it_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Hardware",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "it_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Wifi and remote access",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "it_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Security",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "it_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            } ]
+          },
+          "browseLink" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "link"
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "chevron-right-outline"
+              },
+              "link" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "type" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "route"
+                  },
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Browse all",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : {
+                      "route" : "it_support",
+                      "fields" : { }
+                    }
+                  },
+                  "opensWindow" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  },
+                  "configAria" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : { }
+                  },
+                  "download" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  }
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "heading" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "link"
+              },
+              "hasIcon" : {
+                "type" : "JSON_LITERAL",
+                "value" : true
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "name" : "bundle-outline",
+                  "placement" : "inline",
+                  "alignment" : "left"
+                }
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "",
+                  "comment" : ""
+                }
+              },
+              "link" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Human resources",
+                      "comment" : ""
+                    }
+                  },
+                  "type" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "route"
+                  },
+                  "value" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : {
+                      "route" : "hr_support",
+                      "fields" : { }
+                    }
+                  },
+                  "opensWindow" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  },
+                  "configAria" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : { }
+                  },
+                  "download" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  }
+                }
+              }
+            }
+          },
+          "links" : {
+            "type" : "LIST_CONTAINER",
+            "container" : [ {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Benefits",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "hr_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Payroll",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "hr_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Time off",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "hr_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Training/careers",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "hr_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            } ]
+          },
+          "browseLink" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "link"
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "chevron-right-outline"
+              },
+              "link" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "type" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "route"
+                  },
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Browse all",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : {
+                      "route" : "it_support",
+                      "fields" : { }
+                    }
+                  },
+                  "opensWindow" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  },
+                  "configAria" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : { }
+                  },
+                  "download" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  }
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "heading" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "link"
+              },
+              "hasIcon" : {
+                "type" : "JSON_LITERAL",
+                "value" : true
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "name" : "bundle-outline",
+                  "placement" : "inline",
+                  "alignment" : "left"
+                }
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "",
+                  "comment" : ""
+                }
+              },
+              "link" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Travel &amp; expenses",
+                      "comment" : ""
+                    }
+                  },
+                  "type" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "route"
+                  },
+                  "value" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : {
+                      "route" : "te_support",
+                      "fields" : { }
+                    }
+                  },
+                  "opensWindow" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  },
+                  "configAria" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : { }
+                  },
+                  "download" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  }
+                }
+              }
+            }
+          },
+          "links" : {
+            "type" : "LIST_CONTAINER",
+            "container" : [ {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Travel safety",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "te_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Preferred business",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "te_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Expenses and gifts",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "te_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Finance",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "te_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            } ]
+          },
+          "browseLink" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "link"
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "chevron-right-outline"
+              },
+              "link" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "type" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "route"
+                  },
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Browse all",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : {
+                      "route" : "it_support",
+                      "fields" : { }
+                    }
+                  },
+                  "opensWindow" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  },
+                  "configAria" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : { }
+                  },
+                  "download" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  }
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "heading" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "link"
+              },
+              "hasIcon" : {
+                "type" : "JSON_LITERAL",
+                "value" : true
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "name" : "bundle-outline",
+                  "placement" : "inline",
+                  "alignment" : "left"
+                }
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "",
+                  "comment" : ""
+                }
+              },
+              "link" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Events",
+                      "comment" : ""
+                    }
+                  },
+                  "type" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "route"
+                  },
+                  "value" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : {
+                      "route" : "events",
+                      "fields" : { }
+                    }
+                  },
+                  "opensWindow" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  },
+                  "configAria" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : { }
+                  },
+                  "download" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  }
+                }
+              }
+            }
+          },
+          "links" : {
+            "type" : "LIST_CONTAINER",
+            "container" : [ {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Travel safety",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "te_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Preferred business",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "te_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Expenses and gifts",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "te_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }, {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Finance",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "te_support",
+                    "fields" : { }
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "startsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "icon" : "headset-outline",
+                    "align" : "center"
+                  }
+                },
+                "endsWith" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "type" : "icon",
+                    "value" : "clipboard-outline",
+                    "additionalAttrs" : null
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            } ]
+          },
+          "browseLink" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "link"
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "",
+                  "comment" : ""
+                }
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "chevron-right-outline"
+              },
+              "link" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "type" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "route"
+                  },
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Browse all",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : {
+                      "route" : "it_support",
+                      "fields" : { }
+                    }
+                  },
+                  "opensWindow" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  },
+                  "configAria" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : { }
+                  },
+                  "download" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : false
+                  }
+                }
+              }
+            }
+          }
+        }
+      } ]
+    },
+    "linkSetPerRow" : {
+      "type" : "JSON_LITERAL",
+      "value" : 5
+    },
+    "heading" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "IT Support",
+        "comment" : ""
+      }
+    },
+    "disableBrowseAll" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "activeRoute" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "0" : "[",
+        "routeType" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "67cf54ff68b39f4e45b946184b91bacb",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "calendar_1",
+  "elementLabel" : "Calendar 1",
+  "propertyValues" : {
+    "availableTimezones" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ {
+        "name" : "GMT",
+        "label" : "GMT"
+      } ]
+    },
+    "availableViews" : {
+      "type" : "LIST_CONTAINER",
+      "container" : [ {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "view" : {
+            "type" : "JSON_LITERAL",
+            "value" : "DAY"
+          },
+          "viewProvider" : {
+            "type" : "JSON_LITERAL",
+            "value" : "DAY"
+          },
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Day",
+              "comment" : ""
+            }
+          },
+          "type" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Calendar"
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "view" : {
+            "type" : "JSON_LITERAL",
+            "value" : "work_week"
+          },
+          "viewProvider" : {
+            "type" : "JSON_LITERAL",
+            "value" : "COLUMN"
+          },
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Work Week",
+              "comment" : ""
+            }
+          },
+          "type" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Calendar"
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "view" : {
+            "type" : "JSON_LITERAL",
+            "value" : "WEEK"
+          },
+          "viewProvider" : {
+            "type" : "JSON_LITERAL",
+            "value" : "WEEK"
+          },
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Week",
+              "comment" : ""
+            }
+          },
+          "type" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Calendar"
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "view" : {
+            "type" : "JSON_LITERAL",
+            "value" : "MONTH"
+          },
+          "viewProvider" : {
+            "type" : "JSON_LITERAL",
+            "value" : "MONTH"
+          },
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Month",
+              "comment" : ""
+            }
+          },
+          "type" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Calendar"
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "view" : {
+            "type" : "JSON_LITERAL",
+            "value" : "TIMELINE_DAY"
+          },
+          "viewProvider" : {
+            "type" : "JSON_LITERAL",
+            "value" : "TIMELINE_DAY"
+          },
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Day",
+              "comment" : ""
+            }
+          },
+          "type" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Timeline"
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "view" : {
+            "type" : "JSON_LITERAL",
+            "value" : "TIMELINE_WEEK"
+          },
+          "viewProvider" : {
+            "type" : "JSON_LITERAL",
+            "value" : "TIMELINE_WEEK"
+          },
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "Week",
+              "comment" : ""
+            }
+          },
+          "type" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Timeline"
+          }
+        }
+      } ]
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    },
+    "contextDate" : {
+      "type" : "JSON_LITERAL",
+      "value" : "2020-07-29 10:31:29"
+    },
+    "contextualPanelItems" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ {
+        "icon" : "filter-outline",
+        "id" : "filter",
+        "label" : "Filter"
+      } ]
+    },
+    "currentView" : {
+      "type" : "JSON_LITERAL",
+      "value" : "DAY"
+    },
+    "customizableLabels" : {
+      "type" : "MAP_CONTAINER",
+      "container" : {
+        "newButton" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "New",
+                "comment" : ""
+              }
+            }
+          }
+        },
+        "agendaEmptyState" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "No Events Scheduled",
+                "comment" : ""
+              }
+            },
+            "subText" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          }
+        }
+      }
+    },
+    "dateFormat" : {
+      "type" : "JSON_LITERAL",
+      "value" : "YYYY-MM-DD"
+    },
+    "datePickerTemplates" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "work_week" : "startMoment ? startMoment.format('ddd, MMM D') + '-' + endMoment.format('ddd, MMM D') : ''"
+      }
+    },
+    "dir" : {
+      "type" : "JSON_LITERAL",
+      "value" : "default"
+    },
+    "externalEvent" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "events" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ {
+        "title" : "Demo day",
+        "bgColor" : "nds-orange",
+        "start" : "2020-07-29 04:00:01",
+        "end" : "2020-07-29 18:00:00",
+        "childEvents" : [ {
+          "title" : "ITSM",
+          "bgColor" : "#78b0cc",
+          "start" : "2020-07-29 07:30:01",
+          "end" : "2020-07-29 09:45:00"
+        }, {
+          "title" : "ITBM",
+          "bgColor" : "#ecdf93",
+          "start" : "2020-07-29 11:15:01",
+          "end" : "2020-07-29 12:45:00"
+        }, {
+          "title" : "CSM",
+          "bgColor" : "#28b353",
+          "start" : "2020-07-29 14:00:01",
+          "end" : "2020-07-29 16:00:00"
+        } ],
+        "group" : "Hardware",
+        "id" : "100",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1595995201000,
+        "endMS" : 1596045600000
+      }, {
+        "title" : "Short Event",
+        "bgColor" : "nds-orange",
+        "start" : "2020-07-29 08:00:00",
+        "end" : "2020-07-29 08:15:00",
+        "group" : "Hardware",
+        "id" : "101",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1596009600000,
+        "endMS" : 1596010500000
+      }, {
+        "title" : "Short Event 1",
+        "bgColor" : "nds-orange",
+        "start" : "2020-07-29 23:45:00",
+        "end" : "2020-07-29 23:50:00",
+        "group" : "Hardware",
+        "id" : "102",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1596066300000,
+        "endMS" : 1596066600000
+      }, {
+        "title" : "Event 2",
+        "bgColor" : "#FF0000",
+        "start" : "2020-07-29 02:20:00",
+        "end" : "2020-07-29 06:00:00",
+        "group" : "Hardware",
+        "id" : "103",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1595989200000,
+        "endMS" : 1596002400000
+      }, {
+        "title" : "Event 3",
+        "start" : "2020-07-29 03:30:01",
+        "end" : "2020-07-29 07:00:00",
+        "group" : "Hardware",
+        "id" : "104",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1595993401000,
+        "endMS" : 1596006000000
+      }, {
+        "title" : "Event 4",
+        "start" : "2020-07-29 02:50:01",
+        "end" : "2020-07-29 07:30:00",
+        "group" : "Hardware",
+        "id" : "105",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1595991001000,
+        "endMS" : 1596007800000
+      }, {
+        "title" : "Event 3_1",
+        "start" : "2020-07-29 03:30:01",
+        "end" : "2020-07-29 07:00:00",
+        "group" : "HardDisk",
+        "id" : "106",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1595993401000,
+        "endMS" : 1596006000000
+      }, {
+        "title" : "Event 4_1",
+        "start" : "2020-07-29 02:50:01",
+        "end" : "2020-07-29 07:30:00",
+        "group" : "HardDisk",
+        "id" : "107",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1595991001000,
+        "endMS" : 1596007800000
+      }, {
+        "title" : "Event 5",
+        "bgColor" : "nds-purple",
+        "start" : "2020-07-29 08:00:01",
+        "end" : "2020-07-29 10:00:00",
+        "group" : "Software",
+        "id" : "108",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1596009601000,
+        "endMS" : 1596016800000
+      }, {
+        "title" : "Event 6",
+        "start" : "2020-07-29 08:00:01",
+        "end" : "2020-07-29 10:00:00",
+        "group" : "Software",
+        "id" : "109",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1596009601000,
+        "endMS" : 1596016800000
+      }, {
+        "title" : "Event 7",
+        "bgColor" : "red",
+        "start" : "2020-07-29 12:00:01",
+        "end" : "2020-07-29 13:30:00",
+        "group" : "ServiceDesk",
+        "id" : "110",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1596024001000,
+        "endMS" : 1596029400000
+      }, {
+        "title" : "MIN HEIGHT",
+        "start" : "2020-07-29 12:00:01",
+        "end" : "2020-07-29 12:01:01",
+        "group" : "ServiceDesk",
+        "id" : "111",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1596024001000,
+        "endMS" : 1596024061000
+      }, {
+        "title" : "Event 8",
+        "start" : "2020-07-29 12:00:01",
+        "end" : "2020-07-29 15:00:00",
+        "group" : "ServiceDesk",
+        "id" : "112",
+        "startMS" : 1596024001000,
+        "endMS" : 1596034800000
+      }, {
+        "title" : "Event 9 multi day - non overlapping",
+        "bgColor" : "#94baf7",
+        "start" : "2020-07-29 02:00:00",
+        "end" : "2020-07-30 03:00:00",
+        "group" : "ServiceDesk",
+        "id" : "113",
+        "gradientColor1" : "#ccc",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        "startMS" : 1595988000000,
+        "endMS" : 1596078000000
+      }, {
+        "title" : "Event 9_1 With Gradient",
+        "textColor" : "#fff",
+        "start" : "2020-07-30 10:00:01",
+        "end" : "2020-07-30 15:00:00",
+        "group" : "ServiceDesk",
+        "id" : "114",
+        "gradientColor1" : "#0e78c4",
+        "gradientColor2" : "#68abda",
+        "startMS" : 1596103201000,
+        "endMS" : 1596121200000
+      }, {
+        "title" : "Event 10",
+        "start" : "2020-07-31 01:40:00",
+        "end" : "2020-07-31 04:10:00",
+        "group" : "Network",
+        "id" : "115",
+        "startMS" : 1596159600000,
+        "endMS" : 1596168600000
+      }, {
+        "title" : "Event 11",
+        "start" : "2020-07-31 04:00:00",
+        "end" : "2020-07-31 08:10:00",
+        "group" : "Network",
+        "id" : "116",
+        "startMS" : 1596168000000,
+        "endMS" : 1596183000000
+      }, {
+        "title" : "Event 12 Read Only",
+        "bgColor" : "#ff0000",
+        "start" : "2020-07-31 08:00:00",
+        "end" : "2020-07-31 11:10:00",
+        "readOnly" : true,
+        "group" : "Software",
+        "id" : "117",
+        "startMS" : 1596182400000,
+        "endMS" : 1596193800000
+      }, {
+        "title" : "Event 13 Only resizable",
+        "bgColor" : "#ecdf93",
+        "start" : "2020-07-31 11:00:00",
+        "end" : "2020-07-31 16:10:00",
+        "allowMove" : false,
+        "allowResize" : true,
+        "group" : "Software",
+        "id" : "118",
+        "startMS" : 1596193200000,
+        "endMS" : 1596211800000
+      }, {
+        "title" : "Event 13_1 With Gradient",
+        "start" : "2020-07-31 19:00:00",
+        "end" : "2020-07-31 21:10:00",
+        "allowMove" : false,
+        "allowResize" : true,
+        "group" : "Software",
+        "id" : "119",
+        "gradientColor1" : "#ccc",
+        "gradientColor2" : "#fff",
+        "borderColor" : "#ccc",
+        "startMS" : 1596222000000,
+        "endMS" : 1596229800000
+      }, {
+        "title" : "Event 14 Only be moved",
+        "bgColor" : "#94baf7",
+        "start" : "2020-08-02 02:00:00",
+        "end" : "2020-08-02 06:00:00",
+        "allowMove" : true,
+        "allowResize" : false,
+        "group" : "MIM",
+        "id" : "120",
+        "startMS" : 1596333600000,
+        "endMS" : 1596348000000
+      }, {
+        "title" : "Event 15",
+        "start" : "2020-08-02 02:30:00",
+        "end" : "2020-08-02 05:40:00",
+        "group" : "MIM",
+        "id" : "121",
+        "startMS" : 1596335400000,
+        "endMS" : 1596346800000
+      }, {
+        "title" : "Event 16",
+        "start" : "2020-08-02 07:00:00",
+        "end" : "2020-08-02 11:00:00",
+        "group" : "MIM",
+        "id" : "122",
+        "startMS" : 1596351600000,
+        "endMS" : 1596366000000
+      }, {
+        "title" : "Event 17",
+        "start" : "2020-08-02 07:10:00",
+        "end" : "2020-08-02 15:10:00",
+        "group" : "MIM",
+        "id" : "123",
+        "startMS" : 1596352200000,
+        "endMS" : 1596381000000
+      }, {
+        "title" : "Event 18",
+        "start" : "2020-08-02 07:15:00",
+        "end" : "2020-08-02 19:10:00",
+        "group" : "MIM",
+        "id" : "124",
+        "startMS" : 1596352500000,
+        "endMS" : 1596395400000
+      }, {
+        "title" : "Event 15_1",
+        "bgColor" : "nds-brown",
+        "start" : "2020-08-02 02:30:00",
+        "end" : "2020-08-02 05:40:00",
+        "group" : "TechinicalPlan",
+        "id" : "125",
+        "startMS" : 1596335400000,
+        "endMS" : 1596346800000
+      }, {
+        "title" : "Event 16_1",
+        "start" : "2020-08-02 07:00:00",
+        "end" : "2020-08-02 11:00:00",
+        "group" : "TechnicalPlan",
+        "id" : "126",
+        "startMS" : 1596351600000,
+        "endMS" : 1596366000000
+      }, {
+        "title" : "Event 17_1",
+        "start" : "2020-08-02 07:10:00",
+        "end" : "2020-08-02 15:10:00",
+        "group" : "CommunicationPlan",
+        "id" : "127",
+        "startMS" : 1596352200000,
+        "endMS" : 1596381000000
+      }, {
+        "title" : "Event 18_1",
+        "start" : "2020-08-02 07:15:00",
+        "end" : "2020-08-02 19:10:00",
+        "group" : "CommuinicationPlan",
+        "id" : "128",
+        "startMS" : 1596352500000,
+        "endMS" : 1596395400000
+      }, {
+        "title" : "Event 15_2",
+        "bgColor" : "nds-teal",
+        "start" : "2020-08-02 02:30:00",
+        "end" : "2020-08-02 05:40:00",
+        "group" : "ConferenceTask",
+        "id" : "129",
+        "startMS" : 1596335400000,
+        "endMS" : 1596346800000
+      }, {
+        "title" : "Event 16_2",
+        "start" : "2020-08-02 07:00:00",
+        "end" : "2020-08-02 11:00:00",
+        "group" : "ConferenceTask",
+        "id" : "130",
+        "startMS" : 1596351600000,
+        "endMS" : 1596366000000
+      }, {
+        "title" : "Event 17_2",
+        "start" : "2020-08-02 07:10:00",
+        "end" : "2020-08-02 15:10:00",
+        "group" : "CommunicationTask",
+        "id" : "131",
+        "startMS" : 1596352200000,
+        "endMS" : 1596381000000
+      }, {
+        "title" : "Event 18_2",
+        "start" : "2020-08-02 07:15:00",
+        "end" : "2020-08-02 19:10:00",
+        "group" : "CommTask2",
+        "id" : "132",
+        "startMS" : 1596352500000,
+        "endMS" : 1596395400000
+      }, {
+        "title" : "Event 15_3",
+        "start" : "2020-08-02 02:30:00",
+        "end" : "2020-08-02 05:40:00",
+        "group" : "SMSTask",
+        "id" : "133",
+        "startMS" : 1596335400000,
+        "endMS" : 1596346800000
+      }, {
+        "title" : "Event 16_3",
+        "start" : "2020-08-02 07:00:00",
+        "end" : "2020-08-02 11:00:00",
+        "group" : "SMSTask",
+        "id" : "134",
+        "startMS" : 1596351600000,
+        "endMS" : 1596366000000
+      }, {
+        "title" : "Event 17_3",
+        "bgColor" : "nds-gray",
+        "start" : "2020-08-02 07:10:00",
+        "end" : "2020-08-02 15:10:00",
+        "group" : "MailTask",
+        "id" : "135",
+        "startMS" : 1596352200000,
+        "endMS" : 1596381000000
+      }, {
+        "title" : "Event 18_3",
+        "start" : "2020-08-05 07:15:00",
+        "end" : "2020-08-05 19:10:00",
+        "group" : "MailTask",
+        "id" : "136",
+        "startMS" : 1596611700000,
+        "endMS" : 1596654600000
+      }, {
+        "title" : "Event 19_3",
+        "start" : "2020-08-05 07:15:00",
+        "end" : "2020-08-05 19:10:00",
+        "group" : "MailTask",
+        "id" : "137",
+        "startMS" : 1596611700000,
+        "endMS" : 1596654600000
+      }, {
+        "title" : "Event 20_3",
+        "start" : "2020-08-28 07:15:00",
+        "end" : "2020-08-28 19:10:00",
+        "group" : "MailTask",
+        "id" : "138",
+        "startMS" : 1598598900000,
+        "endMS" : 1598641800000
+      }, {
+        "title" : "Event 21_3",
+        "start" : "2020-08-28 07:15:00",
+        "end" : "2020-08-28 19:10:00",
+        "group" : "MailTask",
+        "id" : "139",
+        "startMS" : 1598598900000,
+        "endMS" : 1598641800000
+      }, {
+        "title" : "Event 22",
+        "start" : "2020-08-05 00:00:00",
+        "end" : "2020-08-06 00:00:00",
+        "group" : "Hardware",
+        "id" : "140",
+        "startMS" : 1596585600000,
+        "endMS" : 1596672000000
+      } ]
+    },
+    "firstDayOfWeek" : {
+      "type" : "JSON_LITERAL",
+      "value" : 0
+    },
+    "hotkeys" : {
+      "type" : "LIST_CONTAINER",
+      "container" : [ {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "eventName" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "message" : "markspan",
+              "comment" : ""
+            }
+          },
+          "selector" : {
+            "type" : "JSON_LITERAL",
+            "value" : ".mark-span"
+          },
+          "keyCode" : {
+            "type" : "JSON_LITERAL",
+            "value" : 77
+          },
+          "name" : {
+            "type" : "JSON_LITERAL",
+            "value" : "M"
+          },
+          "view" : {
+            "type" : "JSON_LITERAL",
+            "value" : "COLUMN"
+          },
+          "info" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "next" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "keyName" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "M"
+                  },
+                  "description" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Select next mark span event",
+                      "comment" : ""
+                    }
+                  }
+                }
+              },
+              "previous" : {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "keyName" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "Shift + M"
+                  },
+                  "description" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Select previous mark span event",
+                      "comment" : ""
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      } ]
+    },
+    "locale" : {
+      "type" : "JSON_LITERAL",
+      "value" : "default"
+    },
+    "markSpans" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ {
+        "startDate" : "2019-01-01",
+        "endDate" : "2020-01-01",
+        "occurrenceDays" : [ 0 ],
+        "zones" : [ {
+          "startTime" : "00:00:00",
+          "endTime" : "23:59:59"
+        } ],
+        "textColor" : "blue",
+        "bgColor" : "rgb(251, 236, 207)",
+        "block" : false,
+        "$$mid" : 0
+      }, {
+        "startDate" : "2019-08-01",
+        "endDate" : "2019-11-01",
+        "occurrenceDays" : [ 6 ],
+        "zones" : [ {
+          "startTime" : "01:00:00",
+          "endTime" : "04:00:00"
+        } ],
+        "block" : true,
+        "title" : "Blackout",
+        "$$mid" : 1
+      }, {
+        "startDate" : "2019-08-01",
+        "endDate" : "2019-11-01",
+        "occurrenceDays" : [ 6 ],
+        "zones" : [ {
+          "startTime" : "09:00:00",
+          "endTime" : "20:00:00"
+        } ],
+        "block" : true,
+        "inclusiveCheck" : true,
+        "title" : "Blackout Inclusive",
+        "$$mid" : 2
+      }, {
+        "occurrenceDays" : [ 2 ],
+        "zones" : [ {
+          "startTime" : "00:00:00",
+          "endTime" : "23:59:59"
+        } ],
+        "block" : true,
+        "title" : "Maintenance - GMT (Full Day)",
+        "timezone" : "GMT",
+        "$$mid" : 3
+      } ]
+    },
+    "popoverContentState" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "value" : "empty"
+      }
+    },
+    "hideKeyboardShortcuts" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "popoverEnabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "security" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "readOnly" : false,
+        "allowCreate" : true,
+        "allowMove" : true,
+        "allowResize" : true
+      }
+    },
+    "splitMultiDayEvent" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "timeFormat" : {
+      "type" : "JSON_LITERAL",
+      "value" : "HH:mm"
+    },
+    "sections" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ {
+        "id" : "ITSM_IDC",
+        "title" : "Calendar Component",
+        "isCollapsed" : false,
+        "showHeader" : true,
+        "textColor" : "",
+        "children" : [ {
+          "id" : "Software",
+          "title" : "Appointment Booking",
+          "markspans" : [ {
+            "from" : 9,
+            "spans" : 4,
+            "color" : "#94baf7",
+            "content" : "🚴‍♀️🚴‍♂️🚵‍♀️"
+          }, {
+            "from" : 13,
+            "spans" : 1,
+            "color" : "#e6f7c7",
+            "content" : "🍔🍕🍔"
+          }, {
+            "from" : 14,
+            "spans" : 4,
+            "color" : "#ecdf93",
+            "content" : "🏋️‍♀️🤸‍♂️🏌️‍♂️"
+          } ]
+        }, {
+          "id" : "HardwareSection",
+          "title" : "Calendar view",
+          "isCollapsed" : false,
+          "showHeader" : true,
+          "children" : [ {
+            "id" : "Hardware",
+            "title" : "Readonly Calendar"
+          }, {
+            "id" : "HardDisk",
+            "title" : "Editable Calendar",
+            "markspans" : [ {
+              "from" : 2,
+              "spans" : 8,
+              "color" : "#ffbdc5"
+            }, {
+              "from" : 8,
+              "spans" : 2,
+              "color" : "#e6f7c7"
+            } ]
+          }, {
+            "id" : "NetworkGroup",
+            "title" : "Drag and Drop support",
+            "isCollapsed" : false,
+            "showHeader" : true,
+            "children" : [ {
+              "id" : "Network",
+              "title" : "Reschedule Events",
+              "markspans" : [ {
+                "from" : 8,
+                "spans" : 8,
+                "color" : "#ccc",
+                "style" : {
+                  "backgroundImage" : "repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px)"
+                }
+              }, {
+                "from" : 8,
+                "spans" : 2,
+                "color" : "#ffbdc5"
+              } ]
+            }, {
+              "id" : "Network1",
+              "title" : "Extend/Shrink Events"
+            } ]
+          } ]
+        }, {
+          "id" : "ServiceDesk",
+          "title" : "Timeline View"
+        } ]
+      }, {
+        "id" : "ITBM_IDC",
+        "title" : "Mobile Applications",
+        "isCollapsed" : false,
+        "showHeader" : true,
+        "textColor" : "",
+        "children" : [ {
+          "id" : "MIM",
+          "title" : "MIM"
+        }, {
+          "id" : "TechnicalPlan",
+          "title" : "On Call Application",
+          "isCollapsed" : false,
+          "showHeader" : true,
+          "children" : [ {
+            "id" : "CommunicationTask",
+            "title" : "View My Shifts"
+          }, {
+            "id" : "ConferenceTask",
+            "title" : "Create Rotas",
+            "isCollapsed" : false,
+            "showHeader" : true,
+            "children" : [ {
+              "id" : "SMSTask",
+              "title" : "View overlapping rotas"
+            }, {
+              "id" : "CommunicationPlan",
+              "title" : "8-5 Shifts",
+              "isCollapsed" : false,
+              "showHeader" : true,
+              "children" : [ {
+                "id" : "MailTask",
+                "title" : "Gaps"
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    },
+    "timelineVerticalLines" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ {
+        "meta" : { },
+        "inlineStyle" : {
+          "width" : "2px",
+          "height" : "100%",
+          "margin" : "0 auto",
+          "backgroundColor" : "#fff",
+          "backgroundRepeat" : "repeat-y",
+          "backgroundSize" : "100% 88px",
+          "backgroundPosition" : "0% 0%",
+          "backgroundImage" : "repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px)"
+        },
+        "utcMS" : 1596006089149
+      }, {
+        "meta" : {
+          "id" : 1
+        },
+        "inlineStyle" : {
+          "width" : "2px",
+          "height" : "100%",
+          "margin" : "0 auto"
+        },
+        "utcMS" : 1595991689149
+      } ]
+    },
+    "timezone" : {
+      "type" : "JSON_LITERAL",
+      "value" : "GMT"
+    },
+    "viewSettings" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "DAY" : {
+          "snapGranularity" : 15,
+          "splitRow" : 2
+        },
+        "WEEK" : {
+          "snapGranularity" : 15,
+          "splitRow" : 2
+        },
+        "work_week" : {
+          "snapGranularity" : 15,
+          "numberOfDays" : 5,
+          "splitRow" : 2
+        },
+        "TIMELINE_DAY" : {
+          "snapGranularity" : 15,
+          "splitRow" : 2,
+          "timeRowSpan" : 60,
+          "groupBy" : "group",
+          "animation" : false
+        },
+        "TIMELINE_WEEK" : {
+          "snapGranularity" : 480,
+          "splitRow" : 3,
+          "groupBy" : "group",
+          "animation" : false
+        }
+      }
+    },
+    "enableNewButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "enableNewCalendarClick" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "1de221250a27afba43b9b3b04594857f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "flex"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <props>[ {
+  "name" : "test1",
+  "label" : "test1",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "Accessible Label",
+  "comment" : ""
+}, {
+  "message" : "Benefits",
+  "comment" : ""
+}, {
+  "message" : "Browse all",
+  "comment" : ""
+}, {
+  "message" : "Day",
+  "comment" : ""
+}, {
+  "message" : "Events",
+  "comment" : ""
+}, {
+  "message" : "Expenses and gifts",
+  "comment" : ""
+}, {
+  "message" : "Filter",
+  "comment" : ""
+}, {
+  "message" : "Finance",
+  "comment" : ""
+}, {
+  "message" : "GMT",
+  "comment" : ""
+}, {
+  "message" : "Hardware",
+  "comment" : ""
+}, {
+  "message" : "Human resources",
+  "comment" : ""
+}, {
+  "message" : "IT Support",
+  "comment" : ""
+}, {
+  "message" : "Link",
+  "comment" : ""
+}, {
+  "message" : "Month",
+  "comment" : ""
+}, {
+  "message" : "New",
+  "comment" : ""
+}, {
+  "message" : "No Events Scheduled",
+  "comment" : ""
+}, {
+  "message" : "Payroll",
+  "comment" : ""
+}, {
+  "message" : "Preferred business",
+  "comment" : ""
+}, {
+  "message" : "Security",
+  "comment" : ""
+}, {
+  "message" : "Select next mark span event",
+  "comment" : ""
+}, {
+  "message" : "Select previous mark span event",
+  "comment" : ""
+}, {
+  "message" : "Software",
+  "comment" : ""
+}, {
+  "message" : "Time off",
+  "comment" : ""
+}, {
+  "message" : "Training/careers",
+  "comment" : ""
+}, {
+  "message" : "Travel &amp; expenses",
+  "comment" : ""
+}, {
+  "message" : "Travel safety",
+  "comment" : ""
+}, {
+  "message" : "Week",
+  "comment" : ""
+}, {
+  "message" : "Wifi and remote access",
+  "comment" : ""
+}, {
+  "message" : "Work Week",
+  "comment" : ""
+}, {
+  "message" : "markspan",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-08 18:48:35</sys_created_on>
+        <sys_id>bb71b5942f801110c392db9df699b650</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_bb71b5942f801110c392db9df699b650</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-08 20:48:38</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
