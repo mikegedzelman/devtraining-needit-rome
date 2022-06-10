@@ -3,7 +3,462 @@
         <associated_types/>
         <category>page</category>
         <component_dependencies/>
-        <composition>[ ]</composition>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "link_set_1",
+      "elementLabel" : "Link set 1",
+      "propertyValues" : {
+        "heading" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "link"
+            },
+            "hasIcon" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "icon" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "name" : "bundle-outline",
+                "placement" : "inline",
+                "alignment" : "left"
+              }
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "link" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "IT Support",
+                    "comment" : ""
+                  }
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "it_support",
+                    "fields" : { }
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }
+          }
+        },
+        "links" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Software",
+                  "comment" : ""
+                }
+              },
+              "value" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "route" : "it_support",
+                  "fields" : { }
+                }
+              },
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "route"
+              },
+              "startsWith" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "icon" : "headset-outline",
+                  "align" : "center"
+                }
+              },
+              "endsWith" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "type" : "icon",
+                  "value" : "clipboard-outline",
+                  "additionalAttrs" : null
+                }
+              },
+              "opensWindow" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              },
+              "configAria" : {
+                "type" : "JSON_LITERAL",
+                "value" : { }
+              },
+              "download" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Hardware",
+                  "comment" : ""
+                }
+              },
+              "value" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "route" : "it_support",
+                  "fields" : { }
+                }
+              },
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "route"
+              },
+              "startsWith" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "icon" : "headset-outline",
+                  "align" : "center"
+                }
+              },
+              "endsWith" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "type" : "icon",
+                  "value" : "clipboard-outline",
+                  "additionalAttrs" : null
+                }
+              },
+              "opensWindow" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              },
+              "configAria" : {
+                "type" : "JSON_LITERAL",
+                "value" : { }
+              },
+              "download" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Wifi and remote access",
+                  "comment" : ""
+                }
+              },
+              "value" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "route" : "it_support",
+                  "fields" : { }
+                }
+              },
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "route"
+              },
+              "startsWith" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "icon" : "headset-outline",
+                  "align" : "center"
+                }
+              },
+              "endsWith" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "type" : "icon",
+                  "value" : "clipboard-outline",
+                  "additionalAttrs" : null
+                }
+              },
+              "opensWindow" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              },
+              "configAria" : {
+                "type" : "JSON_LITERAL",
+                "value" : { }
+              },
+              "download" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Security",
+                  "comment" : ""
+                }
+              },
+              "value" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "route" : "it_support",
+                  "fields" : { }
+                }
+              },
+              "type" : {
+                "type" : "JSON_LITERAL",
+                "value" : "route"
+              },
+              "startsWith" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "icon" : "headset-outline",
+                  "align" : "center"
+                }
+              },
+              "endsWith" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "type" : "icon",
+                  "value" : "clipboard-outline",
+                  "additionalAttrs" : null
+                }
+              },
+              "opensWindow" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              },
+              "configAria" : {
+                "type" : "JSON_LITERAL",
+                "value" : { }
+              },
+              "download" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              }
+            }
+          } ]
+        },
+        "indentLinks" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "browseLink" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "link"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "icon" : {
+              "type" : "JSON_LITERAL",
+              "value" : "chevron-right-outline"
+            },
+            "link" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "route"
+                },
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Browse all",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "it_support",
+                    "fields" : { }
+                  }
+                },
+                "opensWindow" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "configAria" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "download" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                }
+              }
+            }
+          }
+        },
+        "minWidth" : {
+          "type" : "JSON_LITERAL",
+          "value" : "150"
+        },
+        "width" : {
+          "type" : "JSON_LITERAL",
+          "value" : "300"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "default"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "b83fb1af6e8e84e024d4057df053038b",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","background-color":"hsl(0, 74%, 48%)"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+        "styles" : null,
+        "templateId" : "4105f10153071010e6bcddeeff7b121e",
+        "type" : "flex"
+      },
+      "version" : "2.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "background-color" : "rgb(46, 224, 46)"
+  }
+}, {
+  "elementId" : "header_row",
+  "elementLabel" : "Header row",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Header",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "container_3",
+      "elementLabel" : "Container 3",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "background-color" : "#81B5A1"
+  }
+} ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
         <dispatched_events/>
@@ -12,13 +467,41 @@
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{ }</internal_event_mappings>
-        <layout/>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Header","rules":{"flex-basis":"50px","margin-bottom":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"flex-basis":"400px","flex":"1","margin-bottom":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Footer","rules":{"flex-basis":"50px"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"flex-flow":"column nowrap","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "7ebde90d53c31010e6bcddeeff7b126d",
+    "type" : "flex"
+  }
+}</layout>
         <macroponent_dependencies/>
         <name>Home</name>
         <props>[ ]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "Browse all",
+  "comment" : ""
+}, {
+  "message" : "Hardware",
+  "comment" : ""
+}, {
+  "message" : "IT Support",
+  "comment" : ""
+}, {
+  "message" : "Security",
+  "comment" : ""
+}, {
+  "message" : "Software",
+  "comment" : ""
+}, {
+  "message" : "Wifi and remote access",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
-        <root_component_config/>
+        <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[ ]</state_properties>
@@ -26,13 +509,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-08 21:03:54</sys_created_on>
         <sys_id>0270965c2fc01110c392db9df699b60c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_0270965c2fc01110c392db9df699b60c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-08 21:03:54</sys_updated_on>
+        <sys_updated_on>2022-06-10 20:29:04</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

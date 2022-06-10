@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="NeedIt Experience Config">546f0a1c2fc01110c392db9df699b607</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Test Agent Assist</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>test-agent-assist</route_type>
+        <screen_type display_value="Test Agent Assist">572cfffc2f401110c392db9df699b69d</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 18:11:27</sys_created_on>
+        <sys_id>df2c37302f801110c392db9df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Agent Assist</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_df2c37302f801110c392db9df699b6b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 18:11:27</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=df2c37302f801110c392db9df699b6b2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3c1bb2f0db0d881049eac597059619e0</instance_id>
+        <instance_name>dev94427</instance_name>
+        <name>sys_ux_app_route_df2c37302f801110c392db9df699b6b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="NeedIt Experience Config">546f0a1c2fc01110c392db9df699b607</app_config><description/><fields/><icon/><name>Test Agent Assist</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>test-agent-assist</route_type><screen_type display_value="Test Agent Assist">572cfffc2f401110c392db9df699b69d</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-10 18:11:27</sys_created_on><sys_id>df2c37302f801110c392db9df699b6b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Agent Assist</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_app_route_df2c37302f801110c392db9df699b6b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-10 18:11:27</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=df2c37302f801110c392db9df699b6b2"/></record_update>]]></payload>
+        <payload_hash>-191680238</payload_hash>
+        <record_name>Test Agent Assist</record_name>
+        <reverted_from/>
+        <source>71da09102f001110c392db9df699b634</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 18:11:27</sys_created_on>
+        <sys_id>db2c37302f801110c392db9df699b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1814ed05df60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 18:11:27</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>172c37308380111067e47e2242f448b4</update_guid>
+        <update_guid_history>172c37308380111067e47e2242f448b4:-191680238</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-10 18:13:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>033f48b66f114fd480222f6f153cfb10</sys_id>
+        <sys_metadata>df2c37302f801110c392db9df699b6b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Agent Assist</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_df2c37302f801110c392db9df699b6b2</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_df2c37302f801110c392db9df699b6b2">db2c37302f801110c392db9df699b6b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-10 18:13:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
